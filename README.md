@@ -4,7 +4,7 @@ Hello! This is a center for my LED-enabled personal climbing wall. When the soft
 ## Construction:
 This board is an 8 foot by 8 foot wall set at 35 degrees from vertical. It has a 12 inch kickboard and with t-nuts placed 8 inches apart with 4 inches of padding to the edge of the face plywood. The frame is simple 2 by 4s with 2 by 6s as legs. The plywood is 3/4 inch thick. The t-nuts and bolts were purchased from [Escape Climbing](https://escapeclimbing.com/) who are, in my book, the best hardware company around. 
 ### Frame
-The frame is 2 by 4s in a rough framing pattern. Here's an image of it, Here's another image of it. It's supported by plywood on the sides to give more rigidity to the kickboard. If these weren't here the bottom would flex considerably and possibly be unstable. ![Back of the frame.](/images/backFrame.jpg "The back of the frame after installing the face.")
+The frame is 2 by 4s in a rough framing pattern. Here's an image of it, Here's another image of it. It's supported by plywood on the sides to give more rigidity to the kickboard. If these weren't here the bottom would flex considerably and possibly be unstable. <img src="/images/backFrame.jpg" width="200" height="200" />
 ### Face
 The frame is the simplest part of the build. It's in two basic parts, the kickboard, and the main wall. The kickboard is 12 inches tall at the front and slightly taller at the back. It's cut at an angle that matches the 35 degree angle the wall is set at. The larger portion of the face is just two 4 by 8 sheets of 3/4 inch plywood. This is a typical thickness for climbing walls. The goal of the face was to make as few cuts in the plywood as possible. 
 ## Electronics
