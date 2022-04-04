@@ -13,9 +13,12 @@ The frame is 2 by 4s in a rough framing pattern. Here's an image of it, Here's a
 The frame is the simplest part of the build. It's in two basic parts, the kickboard, and the main wall. The kickboard is 12 inches tall at the front and slightly taller at the back. It's cut at an angle that matches the 35 degree angle the wall is set at. The larger portion of the face is just two 4 by 8 sheets of 3/4 inch plywood. This is a typical thickness for climbing walls. The goal of the face was to make as few cuts in the plywood as possible. 
 
 <img src="/images/constructedWithHolds.jpg" width="384" height="216" />
+
 ## Electronics
 I used WS2811 LEDs for the lighting. Originally, I went with the WS2812b LEDs but these were sold as single LEDs that needed to be soldered together. After spending far too many hours soldering I went with the WS2811s which are sold as Christmas lights on AliExpress. These are IP68 rated and are fully programmable. To control them I am using an Arduino with the FastLED library. 
+
 ## Paint
 I used 3 coats of latex floor paint with anti-skid additive to grip the holds so that they don't spin once installed. I also used a layer of water-based primer before the paint coats. The streaks indicating which LED corresponds to which hold were done using spray-paint and a stencil. 
+
 ## Software
 The software portion of this is on its way slowly but surely. 
