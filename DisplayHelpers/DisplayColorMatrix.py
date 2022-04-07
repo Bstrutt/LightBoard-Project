@@ -23,8 +23,7 @@ def DisplayColorMatrix(matrix):
     strip = PixelStrip(LED_COUNT, LED_PIN, LED_FREQ_HZ, LED_DMA, LED_INVERT, LED_BRIGHTNESS, LED_CHANNEL)
     strip.begin()
 
-    if type(matrix) != list or type(matrix[0]) != list:
-        raise TypeError ("Please use a list of lists")
+    
     y = 6
     x = 0
 
