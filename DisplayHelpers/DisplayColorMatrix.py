@@ -2,7 +2,7 @@
 # to the LED input on a raspberry pi. FastLED addresses LEDs in a line 
 # so we need to convert matrix to a single line. 
 
-import FastLED
+
 import time
 from rpi_ws281x import Color, PixelStrip, ws
 
@@ -22,19 +22,19 @@ def DisplayColorMatrix(matrix):
 
     strip = PixelStrip(LED_COUNT, LED_PIN, LED_FREQ_HZ, LED_DMA, LED_INVERT, LED_BRIGHTNESS, LED_CHANNEL)
     strip.begin()
-
+    
     
     y = 6
     x = 0
 
     for i in range(LED_COUNT):
-        if type(matrix[y][x]) != type(Color(0,0,0)):
-            raise TypeError ("The matrix should only contain Color types")
-        else:
-            strip[i] = matrix[y][x]
+        #if type(matrix[y][x]) != type(Color(0,0,0)):
+        #    raise TypeError ("The matrix should only contain Color types")
+        #else:
+        strip.setPixelColor(i, matrix[y][x])
 
         if x % 2 == 0:
-            vert = vert + 1
+            y = y + 1
         else:
             y = y - 1
 
@@ -44,7 +44,6 @@ def DisplayColorMatrix(matrix):
         if y == 12 and i < 71:
             y = 11
             x = x + 1
-
         if y == -1 and i > 72:
             y = 0
             x = x - 1

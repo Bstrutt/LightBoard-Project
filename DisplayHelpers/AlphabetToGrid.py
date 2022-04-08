@@ -448,5 +448,5 @@ def getLetterGrid(letter):
         return Y
     if letter == 'Z':
         return Z
-    if letter == ' ';
+    if letter == ' ':
         return space
