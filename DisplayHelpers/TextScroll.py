@@ -8,7 +8,7 @@ from rpi_ws281x import Color, PixelStrip, ws
 
 board = np.zeros((12,12), int)
 
-toPrint = "send nudes  "
+toPrint = "hello world  "
 toPrint = toPrint.upper()
 
 nextGrid = []
