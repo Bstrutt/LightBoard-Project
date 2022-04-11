@@ -14,15 +14,15 @@ LED_BRIGHTNESS = 255   # Set to 0 for darkest and 255 for brightest
 LED_INVERT = False     # True to invert the signal (when using NPN transistor level shift)
 LED_CHANNEL = 0
 
+strip = PixelStrip(LED_COUNT, LED_PIN, LED_FREQ_HZ, LED_DMA, LED_INVERT, LED_BRIGHTNESS, LED_CHANNEL)
+strip.begin()
 
 # A Class is likely unneccessary here as this is fairly 
 # low level and should have very little overhead so that we can update
 # the board in as close to real time as possible
-def DisplayColorMatrix(matrix):
 
-    strip = PixelStrip(LED_COUNT, LED_PIN, LED_FREQ_HZ, LED_DMA, LED_INVERT, LED_BRIGHTNESS, LED_CHANNEL)
-    strip.begin()
-    
+
+def display_color_matrix(matrix):
     
     y = 6
     x = 0

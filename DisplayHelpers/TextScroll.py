@@ -47,6 +47,6 @@ while(True):
                     else:
                         colorBoard[i][j] = blank
                     
-            DisplayColorMatrix(colorBoard)
+            display_color_matrix(colorBoard)
 
 
