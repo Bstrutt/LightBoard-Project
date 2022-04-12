@@ -1,10 +1,9 @@
-from DisplayColorMatrix import DisplayColorMatrix
 import numpy as np
 import AlphabetToGrid
 import sys
 import time
 from rpi_ws281x import Color, PixelStrip, ws
-
+from DisplayColorMatrix import display_color_matrix
 
 board = np.zeros((12,12), int)
 
